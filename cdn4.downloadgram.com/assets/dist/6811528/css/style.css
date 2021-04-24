@@ -1,0 +1,46 @@
+@font-face{
+    font-family:SV;
+    src:local("Source Sans Pro Black"),
+    local("SourceSansPro-Black"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/fv.woff2) format("woff2-variations");
+    font-weight:400 999;
+    font-display:swap
+}
+@font-face{
+    font-family:SV;
+    src:local("Source Sans Pro Light"),
+    local("SourceSansPro-Light"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/fv.woff2) format("woff2-variations");
+    font-weight:1 300;
+    font-display:swap
+}
+@font-face{font-family:'S';
+    font-style:normal;
+    font-weight:300;
+    font-display:swap;
+    src:url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f3.eot);
+    src:local("Source Sans Pro Light"),
+    local("SourceSansPro-Light"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f3.eot?#iefix) format("embedded-opentype"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f3.woff2) format("woff2"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f3.woff) format("woff"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f3.ttf) format("truetype"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f3.svg#SourceSansPro) format("svg")
+}
+@font-face{
+    font-display:swap;
+    font-family:'S';
+    font-style:normal;
+    font-weight:900;
+    src:url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f9.eot);
+    src:local("Source Sans Pro Black"),local("SourceSansPro-Black"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f9.eot?#iefix) format("embedded-opentype"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f9.woff2) format("woff2"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f9.woff) format("woff"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f9.ttf) format("truetype"),
+    url(https://cdn4.downloadgram.com/assets/dist/6811528/fonts/f9.svg#SourceSansPro) format("svg")
+}
+body, html{
+    height:100%;width:100%;padding:0;margin:0}body,input{color:#fff;font-family:'S',sans-serif;font-size:15pt;font-weight:300;
+        letter-spacing:-.025em;line-height:1.75em}
+        @supports (font-variation-settings:normal){body,input{font-family:SV,sans-serif}}@media all and (min-width:1280px){body,input{font-size:13pt}}a{transition:border-color .2s ease-in-out;color:inherit;outline:0;text-decoration:none}body{background:url(../images/bg.jpg) repeat-x #342c2a;background-size:auto;animation:Gradient 90s ease infinite}@keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}main{flex:auto;padding-top:20%;padding-top:25vh;text-align:center}.topi{background:none repeat scroll 0 0 #000;border-radius:8px;border-width:0;box-shadow:0 1px 8px #fff;font-size:.7em;padding:20px 5px 1px;position:fixed;top:-22px;transition:.3s;color:#fff;line-height:2.5}.topi:hover{box-shadow:0 2px 14px #fff}#bmlt{right:15%}@keyframes header{0%{transform:translate3d(0,1em,0);opacity:0}100%{transform:translate3d(0,0,0);opacity:1}}#header{animation:header 1s 1.25s forwards;backface-visibility:hidden;transform:translate3d(0,0,0);cursor:default;display:inline-block;opacity:0;position:relative;text-align:center;top:-1em;vertical-align:middle;width:90%}#header h1{padding:0;margin:0;font-size:4.35em;font-weight:900;font-variation-settings:"wght" 900;letter-spacing:-.035em;line-height:1em}#header p.subtitle{margin:0 0 .75em}#header p{font-size:1.25em;margin:.75em 0 .25em 0;opacity:.75}#header .actions{margin:1.5em 0 0 0}.button{background:none repeat scroll 0 0 rgba(255,255,255,.15);box-shadow:0 0 0 1px #fff inset;color:#fff;border-bottom-color:rgba(255,255,255,.5);-webkit-appearance:none;position:relative;display:inline-block;padding:.85em 3em .85em 3em;border-radius:.25em;cursor:pointer;border:0;text-align:center;text-decoration:none;transition:all .25s ease-in-out}.main_input_wrapper{margin-top:1em}#dg-url{background:none repeat scroll 0 0 transparent;border:1px solid #fff;padding:5px;width:46%}.button::-moz-focus-inner{border:none;outline:0}input.button:hover{background:none repeat scroll 0 0 rgba(255,255,255,.35);box-shadow:0 0 0 1px #fff inset}a.button{background:none repeat scroll 0 0 rgba(73,168,13,.15)}a.button:hover{background:none repeat scroll 0 0 rgba(73,168,13,.35)}#results{margin-top:3em}.fadeIn{opacity:0!important;transition:.4s all}.fadeIn.fadeIn-action{opacity:1!important}.loading{text-align:center}.loading span{display:inline-block;vertical-align:middle;width:10px;height:10px;margin:50px auto;background:#fff;border-radius:50px;animation:loader .9s infinite alternate}.loading span:nth-of-type(2){animation-delay:.3s}.loading span:nth-of-type(3){animation-delay:.6s}@keyframes loader{0%{width:10px;height:10px;opacity:.9;transform:translateY(0)}100%{width:24px;height:24px;opacity:.1;transform:translateY(-21px)}}#waiting{display:none;height:100px;margin:0 auto;width:200px}#waitingdls{display:none}@media all and (max-width:736px){body{min-width:320px}body,input{font-size:11pt}#header h1{font-size:2.5em}#header p{font-size:1em}#dg-url{width:80%}}script{display:none!important}input::selection{color:#fff;background:#0078d7}h1{font-size:2.5em;line-height:.9em}

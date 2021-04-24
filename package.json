@@ -1,0 +1,15 @@
+{
+  "name": "fuckbitch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "http-server index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
